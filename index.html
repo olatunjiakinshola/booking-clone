@@ -1,0 +1,157 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background: #0b3ca5;
+        color: white;
+        padding: 40px;
+        text-transform: none;
+      }
+      header button h2 a{
+        margin-left: 20;
+
+      }
+      header h1 , p{
+        margin-left: 50;
+        font-size: xx-large;
+      }
+      
+      button h2 a{
+        text-decoration: none;
+        }
+        div.circular a{
+          text-decoration: none;
+       }
+       div ul a{
+        text-decoration: none;
+       }
+       div.destination-card{
+        color:midnightblue;
+        border-radius: 100px;
+       }
+       .styled-span {
+            display:inline; 
+            margin: 180px; 
+            background-color:aliceblue ;
+            border-radius: 5px;
+        }
+
+       .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding: 50px;
+        }
+        .container .item img{
+          width: 190px;
+          height: 180;
+        }
+        .item {
+            text-align: center;
+        }
+        .item img {
+            width: 120px;
+            height: 110px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .item p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+</style>
+  </head>
+  <body>
+<header>
+  <button><h2><a href="http://www.booking.com">Booking.com</a></h2></button>
+    <div align="right">
+    <label for="">List Your Property</label>
+      <button><a href="./reg.html">Register</a></button>
+      <button><a href="./log.html">Login</a></button>
+    </div>
+    <div class="circular">
+        <button><a href="http://www.stay.com">Stays</a></button>
+        <button><a href="http://www.flight.com">Flights</a></button>
+        <button><a href="http://www.carrentals.com">Car rentals</a></button>
+        <button><a href="http://www.attractions.com">Attractions</a></button>
+        <button><a href="http://www.airporttaxixs.com">Airport Taxis</a></button>
+    </div>
+    <h1>Find your next stay </h1>
+    <p>Search low prices on hotels, homes and much more...</p>
+</header>
+    <h5>
+      <center>
+        In partnership with <br />
+        <a href="http://www.booking.com"><img src="./pic/msn.jpg" alt="" width="100" height="100" /></a>
+      </center>
+    </h5>
+    <table>
+      <input
+        type="text"
+        required
+        size="30"
+        minlength="20"
+        maxlength="50"
+        placeholder="Where are you going"
+      />
+      <input
+        type="date"
+        required="30"
+        minlength="20"
+        maxlength="50"
+        placeholder="Check in-Check out"
+        maxlength="50"
+      />
+      <input
+        type="text"
+        required
+        size="30"
+        minlength="20"
+        maxlength="50"
+        placeholder="Numbers of Lodgers"
+      />
+      <input type="submit" value="Search" />
+    </table>
+     <p><b>Trending Destinations</b> <br>Most popular choices for travelers from Nigeria</p>
+
+        <div class="Destination-card" align="center">
+            <a href="http://www.lagos.com"><img src="./pic/Lagos.jpg" alt="Lagos" width="600" height="300"></a><a href="http://www.abuja.com"><img src="./pic/Abuja.jpg" alt="Abuja" width="600" height="300"></a>
+            <span class="styled-span"><strong>Lagos</strong></span>
+            <span class="styled-span"><strong>Abuja</strong></span>
+        </div> <br><br>
+
+    
+    <h2>Browse Your Property Type </h2>
+    <div class="container">
+      <div class="item">
+          <a href="http://www.hotel.com"><img src="./pic/Hotel.jpg" alt="Hotels"></a>
+          <p>Hotels</p>
+      </div>
+      <div class="item">
+          <a href="http://www.apartments.com"><img src="./pic/apartments.jpg" alt="Apartments"></a>
+          <p>Apartments</p>
+      </div>
+      <div class="item">
+          <a href="http://www.resorts.com"><img src="./pic/Resorts.jpg" alt="Resorts"></a>
+          <p>Resorts</p>
+      </div>
+      <div class="item">
+          <a href="http://www.villas.com"><img src="./pic/Villas.jpg" alt="Villas"></a>
+          <p>Villas</p>
+      </div>
+      <div class="item">
+          <a href="http://www.cabin.com"><img src="./pic/Cabins.jpg" alt="Cabins"></a>
+          <p>Cabins</p>
+      </div>
+  </div>
+    <h2><big>Get inspiration for your next trip</big></h2>
+    <a href=""
+      >
+      <img src="./pic/Hotel.jpg" alt="" width="300" height="200"
+    /></a> <h3>Best Hotels In Los Angeles</h3>
+  </body>
+</html>
